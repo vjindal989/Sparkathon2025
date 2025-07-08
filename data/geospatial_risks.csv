@@ -1,0 +1,5 @@
+RiskID,RiskType,Latitude,Longitude,Radius_km,Severity
+R1,Hurricane Warning,28.5383,-81.3792,300,0.9
+R2,Wildfire,34.0522,-118.2437,100,0.7
+R3,Extreme Heatwave,33.4484,-112.074,400,0.6
+R4,Flood Zone,29.7604,-95.3698,150,0.8

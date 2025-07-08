@@ -1,0 +1,6 @@
+ProductID,ProductName,BaseShelfLife_days,Temp_Min_C,Temp_Max_C
+P100,Organic Milk,14,1,4
+P101,Fresh Strawberries,7,1,5
+P102,Insulin Vials,365,2,8
+P103,Gourmet Cheese,30,2,7
+P104,Frozen Pizza,180,-20,-15
