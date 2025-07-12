@@ -77,7 +77,6 @@ st.sidebar.title("🧊 IntelliChill v2.0")
 PAGES = ["Live Operations", "Product Lifecycle", "Advanced Warehouse Mgt.", "Predictive Maintenance",
          "Geo-Spatial Risk Analysis"]
 page = st.sidebar.radio("Select Dashboard", PAGES)
-st.sidebar.info("This is a demo dashboard for a cold chain monitoring hackathon project.")
 
 
 # --- Page Rendering Functions ---
