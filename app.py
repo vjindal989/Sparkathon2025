@@ -149,7 +149,7 @@ def render_live_operations():
     else:
         st.success("No critical alerts at this time. All monitored shipments are within safe parameters.")
 def render_product_lifecycle():
-    st.title("ιχ Product Lifecycle Management")
+    st.title("Product Lifecycle Management")
     st.markdown("Trace the entire health journey of a single shipment.")
     shipment_id = st.selectbox("Select a Shipment ID", data['journeys']['ShipmentID'].unique())
     if shipment_id:
@@ -206,7 +206,7 @@ def render_predictive_maintenance():
     features = ['Avg_PowerDraw', 'Std_PowerDraw', 'Avg_Vibration', 'Std_Vibration']
     reefer_summary['Failure_Risk'] = models['maintenance'].predict_proba(reefer_summary[features])[:, 1]
 
-    st.subheader("Reefer Unit Health Overview")
+    st.subheader("Refer Unit Health Overview")
     st.dataframe(reefer_summary.sort_values('Failure_Risk', ascending=False), use_container_width=True)
 
     st.subheader("Units Requiring Immediate Attention")
